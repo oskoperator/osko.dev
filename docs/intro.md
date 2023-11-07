@@ -1,47 +1,16 @@
 ---
 sidebar_position: 1
+sidebar_label: Welcome!
 ---
 
-# Tutorial Intro
+# Welcome to the OSKO documentation!
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Aliquam id dolor. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Nulla est. Integer pellentesque quam vel velit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Nunc auctor. Maecenas ipsum velit, consectetuer eu lobortis ut, dictum at dui. Nullam dapibus fermentum ipsum. Etiam dictum tincidunt diam. Nullam sit amet magna in magna gravida vehicula. Aliquam in lorem sit amet leo accumsan lacinia.
 
-## Getting Started
+Nullam rhoncus aliquam metus. Vestibulum fermentum tortor id mi. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Integer in sapien. Phasellus rhoncus. In rutrum. Sed ac dolor sit amet purus malesuada congue. Mauris dolor felis, sagittis at, luctus sed, aliquam non, tellus. Etiam commodo dui eget wisi. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim. Nulla non lectus sed nisl molestie malesuada.
 
-Get started by **creating a new site**.
+Praesent in mauris eu tortor porttitor accumsan. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Etiam egestas wisi a erat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Nulla quis diam. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Praesent in mauris eu tortor porttitor accumsan. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Fusce nibh. Aenean vel massa quis mauris vehicula lacinia. Nullam faucibus mi quis velit.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Pellentesque sapien. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Pellentesque pretium lectus id turpis. Et harum quidem rerum facilis est et expedita distinctio. Etiam egestas wisi a erat. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Sed ac dolor sit amet purus malesuada congue. Fusce aliquam vestibulum ipsum. Pellentesque pretium lectus id turpis. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Mauris dictum facilisis augue. Aenean fermentum risus id tortor. Pellentesque sapien. Integer tempor. Quisque tincidunt scelerisque libero. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Maecenas sollicitudin. Maecenas aliquet accumsan leo. Integer pellentesque quam vel velit. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Praesent dapibus. Proin in tellus sit amet nibh dignissim sagittis. Aliquam erat volutpat. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Praesent vitae arcu tempor neque lacinia pretium. In enim a arcu imperdiet malesuada. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Fusce suscipit libero eget elit.

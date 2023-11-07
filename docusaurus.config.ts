@@ -35,11 +35,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/oskoperator/osko/tree/main/site",
+          editUrl: "https://github.com/oskoperator/osko.dev/tree/main",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/oskoperator/osko/tree/main/site",
+          editUrl: "https://github.com/oskoperator/osko.dev/tree/main",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -50,6 +50,9 @@ const config: Config = {
 
   themeConfig: {
     image: "img/docusaurus-social-card.jpg",
+    colorMode: {
+      respectPrefersColorScheme: true,
+    },
     navbar: {
       title: "osko",
       logo: {
@@ -72,7 +75,6 @@ const config: Config = {
       ],
     },
     footer: {
-      style: "dark",
       links: [
         {
           title: "Docs",
