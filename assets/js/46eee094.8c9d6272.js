@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[5265],{6187:t=>{t.exports=JSON.parse('{"title":"Contributing","slug":"/category/contributing","permalink":"/docs/category/contributing","navigation":{"previous":{"title":"Welcome!","permalink":"/docs/intro"},"next":{"title":"Documentation","permalink":"/docs/contributing/docs"}}}')}}]);
