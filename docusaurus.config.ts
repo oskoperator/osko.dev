@@ -69,8 +69,9 @@ const config: Config = {
         { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/oskoperator/osko",
-          label: "Source code",
           position: "right",
+          className: "header-github-link",
+          "aria-label": "GitHub repository",
         },
       ],
     },
