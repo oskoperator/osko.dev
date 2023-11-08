@@ -1,3 +1,6 @@
 {
-  "label": "Contributing"
+  "label": "Contributing",
+  "link": {
+    "type": "generated-index"
+  }
 }
