@@ -48,10 +48,12 @@ const config: Config = {
     ],
   ],
 
+  plugins: [require.resolve("docusaurus-lunr-search")],
+
   markdown: {
-	  mermaid: true,
+    mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: ["@docusaurus/theme-mermaid"],
 
   themeConfig: {
     image: "img/docusaurus-social-card.jpg",
