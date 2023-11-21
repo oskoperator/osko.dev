@@ -43,22 +43,29 @@ graph TB
         Grafana
 				AlertingSystem(Alerting system)
         subgraph Osko
-            osko(osko OpenSLO controllers)
-            oskoPRreconciler(osko PrometheusRule controller)
+            oskoSLOReconciler(osko SLO controller)
+            oskoSLIReconciler(osko SLI controller)
+            oskoDSReconciler(osko Datasource controller)
+            oskoPRReconciler(osko PrometheusRule controller)
         end
         apiServer(API Server)
         OpenSLO -->|apply| apiServer
-        apiServer -->|read OpenSLO| osko
-        osko -->|write PrometheusRule| apiServer
-        apiServer -->|read PrometheusRule| oskoPRreconciler
-        oskoPRreconciler -->|write to API| MimirCortex(Mimir/Cortex)
+        apiServer -->|read SLO spec| oskoSLOReconciler
+        apiServer -->|read SLI spec| oskoSLIReconciler
+        apiServer -->|read DS spec| oskoDSReconciler
+        oskoSLOReconciler -->|write PrometheusRule| apiServer
+        oskoSLOReconciler -->|write PR Ownership| oskoPRReconciler
+        apiServer -->|read PrometheusRule| oskoPRReconciler
+        oskoDSReconciler -->|read DS annotations| oskoPRReconciler
+        oskoPRReconciler -->|reconcile PrometheusRule| apiServer
+        oskoPRReconciler -->|write to API| MimirCortex(Mimir/Cortex)
         apiServer -->|read PrometheusRule| PrometheusThanos(Prometheus Operator/Thanos)
 
         MimirCortex --> Grafana
         PrometheusThanos --> Grafana
         Grafana --> UserInput
-				MimirCortex --> AlertingSystem
-				PrometheusThanos --> AlertingSystem
-				AlertingSystem --> UserInput
+        MimirCortex --> AlertingSystem
+        PrometheusThanos --> AlertingSystem
+        AlertingSystem --> UserInput
     end
 ```
